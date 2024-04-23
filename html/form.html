@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>user data</title>
+  </head>
+  <body class="bg-body-secondary">
+    <header class="d-flex justify-content-center pt-5">
+      <footer
+        class="d-flex flex-column align-items-center data bg-white pb-4 user-info"
+      >
+        <div class="bg-primary text-white text-center py-2 w-100">
+          <h1 class="m-0 fw-semibold">Creat Account</h1>
+        </div>
+
+        <section class="w-100 container d-flex flex-column row-gap-4">
+          <div class="d-flex justify-content-evenly pt-4">
+            <nav>
+              <form class="d-flex flex-column row-gap-4">
+                <div class="d-flex flex-column">
+                  <label class="text-primary fw-semibold">First Name</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your first name"
+                    class="p-1 border rounded border-opacity-75"
+                  />
+                </div>
+
+                <div class="d-flex flex-column">
+                  <label class="text-primary fw-semibold">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    class="p-1 p-1 border rounded border-opacity-75"
+                  />
+                </div>
+
+                <div class="d-flex flex-column">
+                  <label class="text-primary fw-semibold">Password</label>
+                  <input
+                    type="password"
+                    placeholder="Enter your password"
+                    class="p-1 p-1 border rounded border-opacity-75"
+                  />
+                </div>
+
+                <div class="d-flex flex-column row-gap-2">
+                  <label class="text-primary fw-semibold">Gender:</label>
+                  <div>
+                    <label class="text-primary fw-semibold">Male</label>
+                    <input type="radio" name="one" />
+                  </div>
+
+                  <div>
+                    <label class="text-primary fw-semibold">Female</label>
+                    <input type="radio" name="one" />
+                  </div>
+                </div>
+              </form>
+            </nav>
+            <nav>
+              <form class="d-flex flex-column row-gap-4">
+                <div class="d-flex flex-column">
+                  <label class="text-primary fw-semibold">Last Name</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your last name"
+                    class="p-1 p-1 border rounded border-opacity-75"
+                  />
+                </div>
+
+                <div class="d-flex flex-column">
+                  <label class="text-primary fw-semibold">Phone Number</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your phone number"
+                    class="p-1 p-1 border rounded border-opacity-75"
+                  />
+                </div>
+
+                <div class="d-flex flex-column">
+                  <label class="text-primary fw-semibold"
+                    >Confirm Password</label
+                  >
+                  <input
+                    type="password"
+                    placeholder="Confirm your password"
+                    class="p-1 p-1 border rounded border-opacity-75"
+                  />
+                </div>
+
+                <div class="d-flex flex-column">
+                  <label class="text-primary fw-semibold">Birth Date</label>
+                  <input
+                    type="date"
+                    class="text-primary p-1 p-1 border rounded border-opacity-75"
+                  />
+                </div>
+              </form>
+            </nav>
+          </div>
+          <div class="w-100 d-flex justify-content-start column-gap-2 ms-2">
+            <button class="btn btn-primary rounded-3" type="reset">
+              Reset
+            </button>
+            <button class="btn btn-primary rounded-3" type="submit">
+              Register
+            </button>
+          </div>
+        </section>
+      </footer>
+    </header>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
